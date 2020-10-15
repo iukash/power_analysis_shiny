@@ -5,8 +5,8 @@ account: iukash
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2985138
-bundleId: 3723975
+bundleId: 3741198
 url: https://iukash.shinyapps.io/power_analysys_shiny/
-when: 1602335906.81056
+when: 1602702073.55775
 asMultiple: FALSE
 asStatic: FALSE
