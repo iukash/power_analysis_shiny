@@ -5,6 +5,9 @@ shinyServer(function(input, output, session) {
     #Выбор способа расчета
     if(input$select_parametric == 1)
     {
+    #Скрыл выбор параметрической/непараметрической статистики
+    shinyjs::hide(id = "select_parametric");
+      
     #Скрытие элементов страницы моделирование
     shinyjs::hide(id = "output_message");
       
